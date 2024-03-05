@@ -1,4 +1,4 @@
-'use client'
+/*'use client'
 import React, { useState } from 'react';
 import * as zod from 'zod';
 import axios from 'axios';
@@ -86,3 +86,4 @@ const FormGenerale: React.FC = () => {
 
 export default FormGenerale;
 
+*/

@@ -18,8 +18,8 @@ export default function Navbar() {
 
     const { setTheme } = useTheme()
     return (
-        <nav className="w-full flex justify-between lg:px-48 px-4 py-4">
-            <div className="flex">
+        <nav className="w-full flex justify-between lg:px-48 px-4 py-8 items-center">
+            <div className="flex lg:text-3xl text-2xl font-bold text-primary">
                 <span>Luliex</span>
             </div>
             <div className="flex">

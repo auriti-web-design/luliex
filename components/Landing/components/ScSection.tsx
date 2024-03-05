@@ -31,7 +31,7 @@ export default function ScSection() {
                         <div className='flex flex-col  gap-y-8'>
 
                             <p className='text-normal lg:text-lg'>
-                                Sfruttando un’esperienza ultra decennale nel settore del lusso garantiamo a tutte le agenzie immobiliari, che si candideranno attraverso il form sottostante e saranno accuratamente selezionate dal nostro team, l’esclusiva possibilità di dare visibilità ai propri annunci all’interno della nostra piattaforma.
+                                Sfruttando un&#39;esperienza ultra decennale nel settore del lusso garantiamo a tutte le agenzie immobiliari, che si candideranno attraverso il form sottostante e saranno accuratamente selezionate dal nostro team, l&#39esclusiva possibilità di dare visibilità ai propri annunci all&#39;interno della nostra piattaforma.
                             </p>
 
                             <p className='text-normal lg:text-lg'>
@@ -43,7 +43,7 @@ export default function ScSection() {
                     {/* Img 2 */}
                     <div className='lg:col-span-1 w-full'>
                         <Image src={FsSimage2} alt="hero img" height={744} width={1055}
-                               className='object-cover object-center w-full h-full' />
+                            className='object-cover object-center w-full h-full' />
                     </div>
                 </div>
             </section>

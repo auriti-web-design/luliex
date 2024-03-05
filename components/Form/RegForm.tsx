@@ -150,11 +150,19 @@ export default function Home() {
     const [selectedFile, setSelectedFile] = useState(null);
 
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-6 lg:p-24">
+        <main className="flex min-h-screen flex-col items-center justify-between px-48">
+            
+            <div className="p-8 lg:p-12 w-full lg:px-64">
+                <div className='flex gap-4 lg:items-center items-center'>
+                    <div
+                        className='before:content-[] h-10 w-0 lg:h-0 lg:w-28 border-2 lg:border border-primary'></div>
+                    <h2 className='font-serif text-2xl lg:text-5xl text-primary'>Modulo di registrazione</h2>
+                </div>
+            </div>
             <Form {...form}>
                 <form
                     onSubmit={form.handleSubmit(handleSubmit)}
-                    className="max-w-xl w-full flex flex-col gap-4"
+                    className="max-w-full w-full flex flex-col gap-4 lg:px-64"
                 >
                     {/* Complete Name */}
                     <FormField

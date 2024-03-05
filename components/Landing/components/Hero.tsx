@@ -30,15 +30,15 @@ export default function Hero() {
                         </h1>
                     </div>
 
-                    <div>
-                        <p className="text-xl">
+                    <div className="max-w-2xl">
+                        <p className="text-xl ">
                             Offriamo ad agenzie altamente selezionate la possibilità di mettersi in contatto con una clientela di alto profilo.
                         </p>
                     </div>
                     <div className='w-full mt-4'>
                         <button
-                            className='py-2 px-4 lg:px-12 border border-primary lg:w-auto uppercase text-sm lg:text-lg'>Candida
-                            la tua Agenzia
+                            className='py-2 px-4 lg:px-12 border border-primary lg:w-auto uppercase text-sm lg:text-lg'>
+                                Candida la tua Agenzia
                         </button>
                     </div>
                 </div>

@@ -24,12 +24,12 @@ export default function MainSection() {
                         <div className='flex flex-col lg:container gap-y-8'>
 
                             <p className='text-normal lg:text-lg'>
-                                Luliex è una straordinaria piattaforma che offre, solo ad agenzie altamente qualificate e referenziate, la possibilità di vendere immobili di pregio a end-user e investitori nazionali, internazionali e fondi d’investimento. Gli asset che saranno presenti all’interno del portale sono ville di lusso, hotel, resort, cantine vitivinicole e dimore storiche.
+                                Luliex è una straordinaria piattaforma che offre, solo ad agenzie altamente qualificate e referenziate, la possibilità di vendere immobili di pregio a end-user e investitori nazionali, internazionali e fondi d&#39;investimento. Gli asset che saranno presenti all&#39;interno del portale sono ville di lusso, hotel, resort, cantine vitivinicole e dimore storiche.
 
                             </p>
 
                             <p className='text-normal lg:text-lg'>
-                                Il nostro obiettivo è quello di mettere in correlazione le più importanti agenzie operanti nel settore dell`&apos;`,immobiliare di lusso nel mondo con coloro che cercano una meravigliosa dimora in cui vivere o una proprietà in cui investire, offrendo la possibilità di relazionarsi con personale altamente qualificato e in grado di soddisfare le richieste di tutti gli stakeholders.
+                                Il nostro obiettivo è quello di mettere in correlazione le più importanti agenzie operanti nel settore dell&apos;,immobiliare di lusso nel mondo con coloro che cercano una meravigliosa dimora in cui vivere o una proprietà in cui investire, offrendo la possibilità di relazionarsi con personale altamente qualificato e in grado di soddisfare le richieste di tutti gli stakeholders.
                             </p>
 
                         </div>
