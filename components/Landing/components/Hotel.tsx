@@ -25,10 +25,10 @@ export default function Hotel() {
 
                     <div className="text-lg lg:text-xl text-primary leading-normal my-12">
                         <p>
-                            Gli asset alberghieri sono divenuti, secondo le stime finanziarie degli ultimi anni, ottime opportunità per gli investimenti immobiliari con profilo rischio-rendimento &#44;value-add&#44;, a beneficio di immobili posizionati anche in location secondarie, con una crescita di valore a medio-lungo termine. </p>
+                            Gli asset alberghieri sono divenuti, secondo le stime finanziarie degli ultimi anni, ottime opportunità per gli investimenti immobiliari con profilo rischio-rendimento <strong className="text-gold">&#8216;value-add&#8217;</strong>, a beneficio di immobili posizionati anche in location secondarie, con una crescita di valore a medio-lungo termine. </p>
                         <br></br>
 
-                        <p>Investire nel mondo dell&#39;hotellerie vuol dire avere l&#39;opportunità di concretizzare una vision di accoglienza personalizzata, che può essere continuamente soggetta a processi di miglioramento e rivalutazione, generando profitti economici esponenziali.
+                        <p>Investire nel mondo dell&#39;hotellerie vuol dire avere l&#39;opportunità di concretizzare una vision di <strong className="text-gold">accoglienza personalizzata</strong>, che può essere continuamente soggetta a processi di miglioramento e rivalutazione, generando <strong className="text-gold">profitti economici esponenziali</strong>.
                         </p>
                     </div>
 

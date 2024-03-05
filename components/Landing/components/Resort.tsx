@@ -24,11 +24,11 @@ export default function Resort() {
 
                     <div className="text-lg lg:text-xl text-secondary leading-normal my-12">
                         <p>
-                            Gli investimenti nei resort possono configurarsi come un&#39;entusiasmante opportunità per gli investitori immobiliari di operare in un grande settore con un eccellente potenziale di guadagno e per gli investitori immobiliari affermati diventano una possibilità concreta di diversificare il proprio portafoglio nel settore dei servizi.
+                            Gli investimenti nei <strong>resort</strong> possono configurarsi come un&#39;entusiasmante opportunità per gli investitori immobiliari di operare in un grande settore con un <strong>eccellente potenziale</strong> di guadagno e per gli investitori immobiliari affermati diventano una possibilità concreta di diversificare il proprio portafoglio nel settore dei servizi.
                         </p>
                         <br></br>
                         <p>
-                            I resort sono luoghi unici in cui è possibile unire il soggiorno a svariati servizi e attività, come il tennis, il golf, attrazioni, eventi enogastronomici.
+                            I resort sono luoghi unici in cui è possibile unire il soggiorno a <strong>svariati servizi e attività</strong>, come il tennis, il golf, attrazioni, eventi enogastronomici.
                         </p>
                     </div>
 

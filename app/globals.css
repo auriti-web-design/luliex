@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/ees4ert.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -70,4 +72,19 @@
   * {
     @apply border-border;
   }
+
+  body {
+    @apply bg-background text-foreground forced-color-adjust-auto antialiased font-active;
+}
+
+h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-sigurd
+    }
+
+
 }

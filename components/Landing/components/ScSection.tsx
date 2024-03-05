@@ -31,11 +31,11 @@ export default function ScSection() {
                         <div className='flex flex-col  gap-y-8'>
 
                             <p className='text-normal lg:text-lg'>
-                                Sfruttando un&#39;esperienza ultra decennale nel settore del lusso garantiamo a tutte le agenzie immobiliari, che si candideranno attraverso il form sottostante e saranno accuratamente selezionate dal nostro team, l&#39esclusiva possibilità di dare visibilità ai propri annunci all&#39;interno della nostra piattaforma.
+                                Sfruttando <span className="text-gold">un&#39;esperienza ultra decennale</span> nel settore del lusso garantiamo a tutte le agenzie immobiliari, che si candideranno attraverso il <span className="text-gold">form sottostante</span> e saranno accuratamente selezionate dal nostro team, l&#39;esclusiva possibilità di dare visibilità ai propri annunci all&#39;einterno della nostra piattaforma.
                             </p>
 
                             <p className='text-normal lg:text-lg'>
-                                Pubblicare in LIULEX significa accedere ad un bacino di investitori straordinari, scelti con cura e finanziariamente solidi, che vi permetterà di abbattere notevolmente i tempi di vendita e soprattutto, grazie alla nostra grandissima esperienza nel mercato nazionale e internazionale, cambierete il vostro modo di fare intermediazione immobiliare.
+                                Pubblicare in LIULEX significa accedere ad un bacino di <span className="text-gold">investitori straordinari</span>, scelti con cura e finanziariamente solidi, che vi permetterà di <span className="text-gold">abbattere notevolmente i tempi di vendita</span> e soprattutto, grazie alla nostra grandissima esperienza nel mercato nazionale e internazionale, cambierete il vostro modo di fare <span className="text-gold">intermediazione immobiliare</span>.
                             </p>
 
                         </div>

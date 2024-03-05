@@ -7,9 +7,13 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   prefix: "",
   theme: {
+    fontFamily: {
+      'sigurd': ['sigurd', 'serif'],
+      'active': ['active-grotesk', 'sans-serif'],
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -19,7 +23,7 @@ const config = {
     },
     extend: {
       colors: {
-        gold: "D4B882",
+        gold: "#D4B882",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

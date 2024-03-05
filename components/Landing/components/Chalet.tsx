@@ -19,17 +19,17 @@ export default function Chalet() {
                 <div className="p-8 lg:p-40">
                     <div className='flex gap-4 lg:items-center items-center'>
                         <div
-                            className='before:content-[] h-10 w-0 lg:h-0 lg:w-28 border-2 lg:border border-[#D4B882]'></div>
+                            className='before:content-[] h-10 w-0 lg:h-0 lg:w-28 border-2 lg:border border-gold'></div>
                         <h2 className='font-serif text-2xl lg:text-7xl text-primary'>Chalet</h2>
                     </div>
 
                     <div className="text-lg lg:text-xl text-primary leading-normal my-12">
                         <p>
-                            Il flusso turistico delle località di montagna è in costante crescita e le più rinomate stazioni sciistiche sono espressione di uno sport che attira sempre maggiori presenze e con dei costi in crescita. </p>
+                            Il flusso turistico delle <strong className="text-gold">località di montagna</strong> è in costante crescita e le più rinomate stazioni sciistiche sono espressione di uno sport che attira sempre maggiori presenze e con dei costi in crescita. </p>
                         <br></br>
 
                         <p>
-                            Per queste ragioni il Trentino Alto Adige, la Valle d&#39;Aosta, il Veneto e il Piemonte sono mete ambite e i tipici chalet e baite di montagna si configurano come un asset di sicuro successo per un redditizio investimento che non si limita al solo periodo invernale.
+                            Per queste ragioni il Trentino Alto Adige, la Valle d&#39;Aosta, il Veneto e il Piemonte sono mete ambite e i tipici chalet e baite di montagna si configurano come un <strong className="text-gold">asset di sicuro successo</strong> per un redditizio investimento che non si limita al solo periodo invernale.
                         </p>
                     </div>
 

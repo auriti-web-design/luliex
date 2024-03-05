@@ -25,12 +25,12 @@ export default function Cantine() {
 
                     <div className="text-lg lg:text-xl text-primary leading-normal my-12">
                         <p>
-                            Nella nostra piattaforma potrai trovare meravigliose e storiche cantine vitivinicole in vendita, che producono pregiati vini con varie denominazioni come DOC, DOCG e IGP a garanzia dell&#39;eccellenza del prodotto.
+                            Nella nostra piattaforma potrai trovare meravigliose e storiche <strong className="text-gold">cantine vitivinicole</strong> in vendita, che producono pregiati vini con varie denominazioni come DOC, DOCG e IGP a garanzia dell&#39;eccellenza del prodotto.
                         </p>
                         <br></br>
 
                         <p>
-                            Acquistare cantine vitivinicole vuol dire investire nella storia della nostra magnifica Italia e nella pancia di uno dei suoi settori produttivi di maggiore interesse.
+                            Acquistare cantine vitivinicole vuol dire <strong className="text-gold">investire nella storia</strong> della nostra magnifica Italia e nella pancia di uno dei suoi settori produttivi di maggiore interesse.
                         </p>
                     </div>
 

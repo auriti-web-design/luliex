@@ -7,6 +7,10 @@ import { useTheme } from 'next-themes'
 
 import {Button } from "@/components/ui/button"
 
+import Logo from '@/assets/logo-luliex.svg'
+
+import Image from "next/image";
+
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -20,7 +24,9 @@ export default function Navbar() {
     return (
         <nav className="w-full flex justify-between lg:px-48 px-4 py-8 items-center">
             <div className="flex lg:text-3xl text-2xl font-bold text-primary">
-                <span>Luliex</span>
+                <span>
+                    <Image src={Logo} width={250} height={50} alt=""/>
+                </span>
             </div>
             <div className="flex">
 

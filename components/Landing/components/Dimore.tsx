@@ -24,11 +24,11 @@ export default function Dimore() {
 
                     <div className="text-lg lg:text-xl text-secondary leading-normal my-12">
                         <p>
-                            Investire nelle dimore storiche vuol dire possedere delle statuarie proprietà di grandissimo pregio sia dal punto di vista storico che economico, che conservano il fascino di essere state abitate dalle famiglie più nobili o essere state addirittura residenze papali.
+                            Investire nelle <strong>dimore storiche</strong> vuol dire possedere delle statuarie proprietà di grandissimo pregio sia dal punto di vista storico che economico, che conservano il <strong>fascino</strong> di essere state abitate dalle famiglie più nobili o essere state addirittura residenze papali.
                         </p>
                         <br></br>
                         <p>
-                            Le dimore storiche si configurano come un ottimo investimento sia se le si acquista come abitazione principale che come asset che diverrà centro e polo storico-culturale di servizi nel campo dell&#39;ospitalità.
+                            Le dimore storiche si configurano come un <strong>ottimo investimento</strong> sia se le si acquista come abitazione principale che come asset che diverrà centro e polo storico-culturale di servizi nel campo dell&#39;ospitalità.
                         </p>
                     </div>
 
