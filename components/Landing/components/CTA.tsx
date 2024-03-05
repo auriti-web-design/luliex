@@ -5,6 +5,8 @@
 import Image from "next/image";
 import BgCTA from "@/assets/modern-house-with-garden-swimming-pool-and-wooden-2023-11-27-05-30-01-utc.webp";
 import * as React from "react";
+import {Button, buttonVariants} from "@/components/ui/button";
+import Link from "next/link";
 
 export default function CTA() {
     return (
@@ -31,10 +33,9 @@ export default function CTA() {
 
 
                                 <div className='w-full mt-4'>
-                                    <button
-                                        className='border border-secondary/50 py-2 px-4 lg:px-10 bg-primary lg:w-auto uppercase text-md text-secondary lg:text-lg drop-shadow-2xl shadow-2xl'>
-                                        Candida la tua Agenzia
-                                    </button>
+                                    <Button asChild className={buttonVariants({ variant: "outline" }) + " p-6 lg:px-12 border bg-gold border-gold rounded-none text-primary lg:w-auto uppercase text-sm lg:text-lg"}>
+                                        <Link href="#form">Candida la tua Agenzia</Link>
+                                    </Button>
                                 </div>
                             </div>
                         </div>
