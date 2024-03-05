@@ -150,10 +150,10 @@ export default function Home() {
     const [selectedFile, setSelectedFile] = useState(null);
 
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between lg:mx-64 border border-gold mb-24 pb-12">
+        <main className="flex min-h-screen flex-col items-center justify-between lg:mx-64 mx-2 px-4 border border-gold mb-24 pb-12">
             
-            <div className="p-8 lg:py-12 w-full lg:px-64">
-                <div className='flex gap-4 lg:items-center items-center'>
+            <div className="lg:py-12 w-full lg:px-64">
+                <div className='py-4 lg:p-0 flex gap-4 lg:items-center items-center'>
                     <div
                         className='before:content-[] h-10 w-0 lg:h-0 lg:w-28 border-2 lg:border border-gold'></div>
                     <h2 className='font-serif text-2xl lg:text-5xl text-primary'>Modulo di registrazione</h2>
