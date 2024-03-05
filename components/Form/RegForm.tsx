@@ -150,9 +150,9 @@ export default function Home() {
     const [selectedFile, setSelectedFile] = useState(null);
 
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between px-48">
+        <main className="flex min-h-screen flex-col items-center justify-between lg:px-48">
             
-            <div className="p-8 lg:p-12 w-full lg:px-64">
+            <div className="p-8 lg:py-12 w-full lg:px-64">
                 <div className='flex gap-4 lg:items-center items-center'>
                     <div
                         className='before:content-[] h-10 w-0 lg:h-0 lg:w-28 border-2 lg:border border-primary'></div>
