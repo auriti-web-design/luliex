@@ -17,9 +17,7 @@ import * as React from "react";
 
 export default function ImgGrid() {
     return (
-        <section className='py-4 px-2 lg:px-48 w-full bg-contain bg-no-repeat bg-right bg-hero-pattern' style={{
-            backgroundImage: `url(${Bg.src})`, marginTop: '50px'
-          }}>
+        <section className='py-4 px-2 lg:px-48 w-full bg-contain bg-no-repeat bg-right overflow-x-hidden'>
             <div className="relative">
                 <Image src={Bg} alt="" layout="fill" objectFit="cover"/> 
             </div>
