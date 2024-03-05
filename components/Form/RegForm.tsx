@@ -163,6 +163,7 @@ export default function Home() {
                 <form
                     onSubmit={form.handleSubmit(handleSubmit)}
                     className="max-w-full w-full flex flex-col gap-4 lg:px-64"
+                    id="form"
                 >
                     {/* Complete Name */}
                     <FormField

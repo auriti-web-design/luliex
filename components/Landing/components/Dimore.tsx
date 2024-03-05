@@ -18,8 +18,8 @@ export default function Dimore() {
                 <div className="p-8 lg:p-40 bg-[#D4B882]">
                     <div className='flex gap-4 lg:items-center items-center'>
                         <div
-                            className='before:content-[] h-10 w-0 lg:h-0 lg:w-28 border-2 lg:border border-primary'></div>
-                        <h2 className='font-serif text-2xl lg:text-5xl text-secondary'>Resort</h2>
+                            className='before:content-[] h-10 w-0 lg:h-0 lg:w-28 border-2 lg:border border-secondary'></div>
+                        <h2 className='font-serif text-2xl lg:text-7xl text-secondary'>Dimore storiche</h2>
                     </div>
 
                     <div className="text-lg lg:text-xl text-secondary leading-normal my-12">

@@ -6,15 +6,19 @@
  * Hero component that renders the hero section.
  * Includes hero text and hero image.
  */
+'use client'
 import Image from "next/image";
 import HeroImage from "@/assets/interior-exterior-design-luxury-pool-villa-house-home-feature-terrace-sun-bed.webp";
 import * as React from "react";
+import { Button, buttonVariants } from "@/components/ui/button"
+import Link from "next/link";
+
 
 export default function Hero() {
     return (
         <>
             <div
-                className='lg:px-48 px-0 flex flex-col lg:grid lg:grid-cols-2 relative gap-4 lg:gap-0 text-md h-full lg:mt-1 mb-8 box-border lg:justify-center lg:items-stretch'>
+                className='lg:pl-48 px-0 flex flex-col lg:grid lg:grid-cols-2 relative gap-4 lg:gap-0 text-md h-full lg:mt-1 mb-8 box-border lg:justify-center lg:items-stretch'>
 
                 {/* Hero Text **/}
                 <div className='py-2 px-4 lg:px-0 flex flex-col gap-4 lg:gap-y-8 lg:gap-x-0 lg:z-10 lg:col-span-1 self-stretch'>
@@ -36,10 +40,9 @@ export default function Hero() {
                         </p>
                     </div>
                     <div className='w-full mt-4'>
-                        <button
-                            className='py-2 px-4 lg:px-12 border border-primary lg:w-auto uppercase text-sm lg:text-lg'>
-                                Candida la tua Agenzia
-                        </button>
+                    <Button asChild className={buttonVariants({ variant: "outline" }) + " py-2 px-4 lg:px-12 border border-primary rounded-none text-primary lg:w-auto uppercase text-sm lg:text-lg"}>
+                        <Link href="#form">Candida la tua Agenzia</Link>
+                    </Button>
                     </div>
                 </div>
 

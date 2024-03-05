@@ -19,8 +19,8 @@ export default function Chalet() {
                 <div className="p-8 lg:p-40">
                     <div className='flex gap-4 lg:items-center items-center'>
                         <div
-                            className='before:content-[] h-10 w-0 lg:h-0 lg:w-28 border-2 lg:border border-primary'></div>
-                        <h2 className='font-serif text-2xl lg:text-5xl text-primary'>Chalet</h2>
+                            className='before:content-[] h-10 w-0 lg:h-0 lg:w-28 border-2 lg:border border-[#D4B882]'></div>
+                        <h2 className='font-serif text-2xl lg:text-7xl text-primary'>Chalet</h2>
                     </div>
 
                     <div className="text-lg lg:text-xl text-primary leading-normal my-12">
