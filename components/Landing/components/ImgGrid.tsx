@@ -12,13 +12,24 @@ import Cantine from "@/assets/cantine_vitivinicole.webp";
 import Resort from "@/assets/2793.webp";
 import Dimore from "@/assets/dimore_storiche.webp";
 import Chalet from "@/assets/chalet.webp";
+import Bg from '@/assets/bg-element.svg'
 import * as React from "react";
 
 export default function ImgGrid() {
     return (
-        <section className='py-4 px-2 lg:px-48 w-full'>
-            <div className='py-6 lg:py-24'>
-                <div className='flex gap-4 lg:items-stretch'>
+        <section className='py-4 px-2 lg:px-48 w-full bg-contain bg-no-repeat bg-right bg-hero-pattern' style={{
+            backgroundImage: `url(${Bg.src})`, marginTop: '50px'
+          }}>
+            <div className="relative">
+                <Image src={Bg} alt="" layout="fill" objectFit="cover"/> 
+            </div>
+            <div className='py-6 lg:py-24 relative z-10'>
+                    <div className='flex gap-4 lg:items-center lg:mt-6 lg:mb-24'>
+                        <div
+                            className='before:content-[] h-16 w-0 lg:h-0 lg:w-28 border-2 lg:border border-gold'></div>
+                        <h2 className='font-serif text-2xl lg:text-7xl'>Immobili</h2>
+                    </div>
+                <div className='flex gap-4 lg:items-stretch relative z-10 top-0'>
                     <div className='lg:grid lg:grid-cols-12 lg:gap-8 w-full flex flex-col gap-6 items-stretch'>
                         {/* col-3 */}
                         <div className='lg:col-span-3 w-full relative self-auto'>

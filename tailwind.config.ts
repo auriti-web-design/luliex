@@ -22,6 +22,10 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/assets/bg-element.svg')",
+      },
+      
       colors: {
         gold: "#D4B882",
         border: "hsl(var(--border))",

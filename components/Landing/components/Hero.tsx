@@ -6,6 +6,7 @@
  * Hero component that renders the hero section.
  * Includes hero text and hero image.
  */
+
 'use client'
 import Image from "next/image";
 import HeroImage from "@/assets/interior-exterior-design-luxury-pool-villa-house-home-feature-terrace-sun-bed.webp";
@@ -28,7 +29,7 @@ export default function Hero() {
                             Vuoi distinguere i tuoi immobili <br></br>di lusso nel mercato elitario?
                         </p>
                     </div>
-                    <div className='bg-white dark:bg-[#020817] relative z-30 w-[800px] py-6'>
+                    <div className='bg-white dark:bg-[#09090B] relative z-30 w-[800px] py-6'>
                         <h1 className='text-6xl lg:text-8xl font-serif lg:leading-[80%]'>
                             <span className='font-semibold'>Luliex</span><br></br> lusso is a state <br></br>of mind
                         </h1>

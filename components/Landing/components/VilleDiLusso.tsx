@@ -15,10 +15,10 @@ export default function VilleDiLusso() {
     return (
         <section className='py-4 px-2 lg:px-48 w-full'>
             <div className='py-6'>
-                <div className="p-8 lg:p-40 bg-[#D4B882]">
+                <div className="p-8 lg:p-40 bg-gold">
                     <div className='flex gap-4 lg:items-center items-center'>
                         <div
-                            className='before:content-[] h-10 w-0 lg:h-0 lg:w-28 border-2 lg:border border-secondary'></div>
+                            className='before:content-[] h-10 w-0 lg:h-0 lg:w-28 border-2 lg:border border-gold'></div>
                         <h2 className='font-serif text-2xl lg:text-7xl text-secondary'>Ville di Lusso</h2>
                     </div>
 
