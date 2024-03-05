@@ -172,10 +172,10 @@ export default function Home() {
                         render={({ field }) => {
                             return (
                                 <FormItem>
-                                    <FormLabel>Complete Name</FormLabel>
+                                    <FormLabel>Nome completo</FormLabel>
                                     <FormControl>
                                         <Input
-                                            placeholder="Name and Lastname"
+                                            placeholder="Nome e Cognome"
                                             type="text"
                                             {...field}
                                             className="rounded-none"
@@ -194,7 +194,7 @@ export default function Home() {
                         render={({ field }) => {
                             return (
                                 <FormItem>
-                                    <FormLabel>Company Name</FormLabel>
+                                    <FormLabel>Nome dell'Agenzia</FormLabel>
                                     <FormControl>
                                         <Input
                                             placeholder="Type company name"
@@ -215,10 +215,10 @@ export default function Home() {
                         render={({ field }) => {
                             return (
                                 <FormItem>
-                                    <FormLabel>Company Address</FormLabel>
+                                    <FormLabel>Indirizzo</FormLabel>
                                     <FormControl>
                                         <Input
-                                            placeholder="Type Company Address"
+                                            placeholder="Inserisci l'indirizzo della tua azienda"
                                             type="text"
                                             {...field}
                                             className="rounded-none"
@@ -237,10 +237,10 @@ export default function Home() {
                         render={({ field }) => {
                             return (
                                 <FormItem>
-                                    <FormLabel>Company Phone</FormLabel>
+                                    <FormLabel>Telefono</FormLabel>
                                     <FormControl>
                                         <Input
-                                            placeholder="Type company Phone"
+                                            placeholder="+39 123 456 7890"
                                             type="tel"
                                             {...field}
                                             className="rounded-none"
@@ -259,10 +259,10 @@ export default function Home() {
                         render={({ field }) => {
                             return (
                                 <FormItem>
-                                    <FormLabel>Email Address</FormLabel>
+                                    <FormLabel>Email</FormLabel>
                                     <FormControl>
                                         <Input
-                                            placeholder="Email address"
+                                            placeholder="Indirizzo email"
                                             type="email"
                                             {...field}
                                             className="rounded-none"
@@ -281,7 +281,7 @@ export default function Home() {
                         render={() => (
                             <FormItem>
                                 <div className="mb-4">
-                                    <FormLabel className="text-base">Property Type</FormLabel>
+                                    <FormLabel className="text-base">Tipo di proprietà</FormLabel>
                                 </div>
                                 {propType.map((item) => (
                                     <FormField
@@ -328,24 +328,24 @@ export default function Home() {
                         render={({ field }) => {
                             return (
                                 <FormItem>
-                                    <FormLabel>Business Turnover</FormLabel>
+                                    <FormLabel>Fatturato aziendale</FormLabel>
                                     <Select onValueChange={field.onChange}>
                                         <FormControl className="rounded-none">
                                             <SelectTrigger>
-                                                <SelectValue placeholder="Choose your annual turnover" />
+                                                <SelectValue placeholder="Fatturato annuale" />
                                             </SelectTrigger>
                                         </FormControl>
                                         <SelectContent>
                                             <SelectItem value="Less than 100k">
-                                                Less than 100k
+                                               Meno di 100k
                                             </SelectItem>
                                             <SelectItem value="Between 100k and 300k">
-                                                Between 100k and 300k
+                                                Tra 100k e 300k
                                             </SelectItem>
                                             <SelectItem value="Between 300k and 500k">
-                                                Between 300k and 500k
+                                                Tra 300k e 500k
                                             </SelectItem>
-                                            <SelectItem value="More 500k">More 500k</SelectItem>
+                                            <SelectItem value="More 500k">Più di 500k</SelectItem>
                                         </SelectContent>
                                     </Select>
                                     <FormMessage />
@@ -360,7 +360,7 @@ export default function Home() {
                         name="lanEng"
                         render={({ field }) => (
                             <FormItem className="space-y-3">
-                                <FormLabel>Do you speak English at the agency?</FormLabel>
+                                <FormLabel>Parlate inglese in Agenzia?</FormLabel>
                                 <FormControl>
                                     <RadioGroup
                                         onValueChange={field.onChange}
@@ -369,9 +369,9 @@ export default function Home() {
                                     >
                                         <FormItem className="flex items-center space-x-3 space-y-0">
                                             <FormControl>
-                                                <RadioGroupItem value="Yes" />
+                                                <RadioGroupItem value="Si" />
                                             </FormControl>
-                                            <FormLabel className="font-normal">Yes</FormLabel>
+                                            <FormLabel className="font-normal">Si</FormLabel>
                                         </FormItem>
                                         <FormItem className="flex items-center space-x-3 space-y-0">
                                             <FormControl>
@@ -392,7 +392,7 @@ export default function Home() {
                         name="belongFranchise"
                         render={({ field }) => (
                             <FormItem className="space-y-3">
-                                <FormLabel>Do you belong to a franchise?</FormLabel>
+                                <FormLabel>Siete un franchise?</FormLabel>
                                 <FormControl>
                                     <RadioGroup
                                         onValueChange={field.onChange}
@@ -423,7 +423,7 @@ export default function Home() {
                         name="oneMoreLocation"
                         render={({ field }) => (
                             <FormItem className="space-y-3">
-                                <FormLabel>Do you have one or more locations?</FormLabel>
+                                <FormLabel>Avete più di una sede?</FormLabel>
                                 <FormControl>
                                     <RadioGroup
                                         onValueChange={field.onChange}
@@ -457,7 +457,7 @@ export default function Home() {
                             return (
                                 <FormItem>
                                     <FormLabel>
-                                        How many people does the team consist of?
+                                        Da quante persone è composto il Team?
                                     </FormLabel>
                                     <Select onValueChange={field.onChange}>
                                         <FormControl className="rounded-none">
@@ -468,12 +468,12 @@ export default function Home() {
                                         <SelectContent>
                                             <SelectItem value="Less than 3">Less than 3</SelectItem>
                                             <SelectItem value="Between 3 and 5">
-                                                Between 3 and 5
+                                                Tra 3 e 5
                                             </SelectItem>
                                             <SelectItem value="Between 5 and 10">
-                                                Between 5 and 10
+                                                Tra 5 e 10
                                             </SelectItem>
-                                            <SelectItem value="More than 10">More than 10</SelectItem>
+                                            <SelectItem value="More than 10">Più di 10</SelectItem>
                                         </SelectContent>
                                     </Select>
                                     <FormMessage />
@@ -490,8 +490,7 @@ export default function Home() {
                             return (
                                 <FormItem>
                                     <FormLabel>
-                                        Indicate the Linkedin profile of the agency owner or the
-                                        agency`&apos;`,s Instagram profile
+                                        Profilo Linkedin dell&apos; Agenzia
                                     </FormLabel>
                                     <FormControl>
                                         <Input
@@ -550,7 +549,7 @@ export default function Home() {
                         render={({ field }) => {
                             return (
                                 <FormItem>
-                                    <FormLabel>Short Description</FormLabel>
+                                    <FormLabel>Breve descfizione</FormLabel>
                                     <FormControl>
                                         <Textarea
                                             placeholder="Tell us a little bit about your company"
@@ -559,7 +558,7 @@ export default function Home() {
                                         />
                                     </FormControl>
                                     <FormDescription>
-                                        You can use min. 60 characters and max. 280 characters
+                                        You can use min. 30 characters and max. 280 characters
                                     </FormDescription>
                                     <FormMessage />
                                 </FormItem>
@@ -575,7 +574,7 @@ export default function Home() {
                             return (
                                 <FormItem>
                                     <FormLabel>
-                                        Average property value in your portfolio
+                                        Valore medio del portfolio
                                     </FormLabel>
                                     <Select onValueChange={field.onChange}>
                                         <FormControl className="rounded-none">
@@ -585,13 +584,13 @@ export default function Home() {
                                         </FormControl>
                                         <SelectContent>
                                             <SelectItem value="from 0 to 1 mln">
-                                                From 0 to 1 mln
+                                                Da 0 a 1 mln
                                             </SelectItem>
                                             <SelectItem value="from 1 to 5 mln">
-                                                From 1 to 5 mln
+                                                Da 1 a 5 mln
                                             </SelectItem>
                                             <SelectItem value="More than 5 mln">
-                                                More than 5 mln
+                                                Più di 5 mln
                                             </SelectItem>
                                         </SelectContent>
                                     </Select>
@@ -607,7 +606,7 @@ export default function Home() {
                         name="commissionPercentage"
                         render={({ field: { value, onChange } }) => (
                             <FormItem>
-                                <FormLabel>Price - {value}</FormLabel>
+                                <FormLabel>Prezzo - {value}</FormLabel>
                                 <FormControl>
                                     <Slider />
                                 </FormControl>
@@ -621,7 +620,7 @@ export default function Home() {
                         name="commissionPercentage"
                         render={({ field: { value, onChange } }) => (
                             <FormItem>
-                                <FormLabel>Your Logo</FormLabel>
+                                <FormLabel>Il tuo Logo</FormLabel>
                                 <FormControl>
                                     <Input id="picture" type="file" />
                                 </FormControl>
@@ -635,7 +634,7 @@ export default function Home() {
                         name="teamPhoto"
                         render={({ field: { value, onChange } }) => (
                             <FormItem>
-                                <FormLabel>Photos Team</FormLabel>
+                                <FormLabel>Foto del Team</FormLabel>
                                 <FormControl>
                                     <Input id="picture" type="file" />
                                 </FormControl>
@@ -650,7 +649,7 @@ export default function Home() {
                         render={({ field }) => (
                             <FormItem className="space-y-3">
                                 <FormLabel>
-                                    More than 5 years of real estate agency activity
+                                    Più di 5 anni di attività di agenzia immobiliare?
                                 </FormLabel>
                                 <FormControl>
                                     <RadioGroup
@@ -662,7 +661,7 @@ export default function Home() {
                                             <FormControl>
                                                 <RadioGroupItem value="Yes" />
                                             </FormControl>
-                                            <FormLabel className="font-normal">Yes</FormLabel>
+                                            <FormLabel className="font-normal">Si</FormLabel>
                                         </FormItem>
                                         <FormItem className="flex items-center space-x-3 space-y-0">
                                             <FormControl>
@@ -684,7 +683,7 @@ export default function Home() {
                         render={({ field }) => (
                             <FormItem className="space-y-3">
                                 <FormLabel>
-                                    Possibility to meet customers via video call
+                                    Possibilità di incontrare i clienti tramite videochiamata
                                 </FormLabel>
                                 <FormControl>
                                     <RadioGroup
@@ -696,7 +695,7 @@ export default function Home() {
                                             <FormControl>
                                                 <RadioGroupItem value="Yes" />
                                             </FormControl>
-                                            <FormLabel className="font-normal">Yes</FormLabel>
+                                            <FormLabel className="font-normal">Si</FormLabel>
                                         </FormItem>
                                         <FormItem className="flex items-center space-x-3 space-y-0">
                                             <FormControl>
