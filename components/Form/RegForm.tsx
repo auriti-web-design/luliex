@@ -194,7 +194,7 @@ export default function Home() {
                         render={({ field }) => {
                             return (
                                 <FormItem>
-                                    <FormLabel>Nome dell'Agenzia</FormLabel>
+                                    <FormLabel>Nome dell&apos;Agenzia</FormLabel>
                                     <FormControl>
                                         <Input
                                             placeholder="Type company name"
@@ -218,7 +218,7 @@ export default function Home() {
                                     <FormLabel>Indirizzo</FormLabel>
                                     <FormControl>
                                         <Input
-                                            placeholder="Inserisci l'indirizzo della tua azienda"
+                                            placeholder="Inserisci l&apos;indirizzo della tua azienda"
                                             type="text"
                                             {...field}
                                             className="rounded-none"
@@ -386,7 +386,6 @@ export default function Home() {
                         )}
                     />
 
-                    {/* Belong Franchise */}
                     <FormField
                         control={form.control}
                         name="belongFranchise"
