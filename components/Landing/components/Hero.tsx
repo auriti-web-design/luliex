@@ -29,9 +29,9 @@ export default function Hero() {
                             Dai visibilità ai tuoi immobili di lusso nella nostra esclusiva piattaforma
                         </p>
                     </div>
-                    <div className='bg-white dark:bg-[#09090B] relative z-30 w-[800px] py-6'>
-                        <h1 className='text-6xl lg:text-8xl font-serif lg:leading-[80%]'>
-                            <span className='font-semibold'>Luliex</span><br></br> lusso is a state <br></br>of mind
+                    <div className='bg-white dark:bg-[#09090B] relative z-30 w-[850px] py-6'>
+                        <h1 className='text-6xl lg:text-[9rem] font-serif lg:leading-[85%]'>
+                            <span className='font-semibold'>Lusso</span> is <br></br>a state <br></br>of mind
                         </h1>
                     </div>
 
