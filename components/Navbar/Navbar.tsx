@@ -8,6 +8,7 @@ import { useTheme } from 'next-themes'
 import {Button } from "@/components/ui/button"
 
 import Logo from '@/assets/logo-luliex.svg'
+import LogoW from '@/assets/logo-luliex-w.svg'
 
 import Image from "next/image";
 
@@ -23,8 +24,8 @@ export default function Navbar() {
     const { setTheme } = useTheme()
     return (
         <nav className="w-full flex justify-between lg:px-48 px-4 py-8 items-center">
-            <div className="flex lg:text-3xl text-2xl font-bold text-primary">
-                <span>
+            <div className="flex lg:text-3xl text-2xl font-bold text-primary light:hidden">
+                <span className="dark:hidden">
                     <Image src={Logo} width={250} height={50} alt=""/>
                 </span>
             </div>

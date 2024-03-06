@@ -26,7 +26,7 @@ export default function Hero() {
 
                     <div className="mb-0">
                         <p className='tracking-wide text-xl lg:text-2xl lg:leading-9'>
-                            Vuoi distinguere i tuoi immobili <br></br>di lusso nel mercato elitario?
+                            Dai visibilità ai tuoi immobili di lusso nella nostra esclusiva piattaforma
                         </p>
                     </div>
                     <div className='bg-white dark:bg-[#09090B] relative z-30 w-[800px] py-6'>
@@ -42,7 +42,7 @@ export default function Hero() {
                     </div>
                     <div className='w-full mt-4'>
                     <Button asChild className={buttonVariants({ variant: "outline" }) + " p-6 lg:px-12 border bg-gold border-gold rounded-none text-primary lg:w-auto uppercase text-sm lg:text-lg"}>
-                        <Link href="#form">Candida la tua Agenzia</Link>
+                        <Link href="#form">Candida la tua agenzia</Link>
                     </Button>
                     </div>
                 </div>

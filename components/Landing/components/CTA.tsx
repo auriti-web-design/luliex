@@ -3,7 +3,7 @@
  * Includes a background image, heading, and call to action button.
  */
 import Image from "next/image";
-import BgCTA from "@/assets/modern-house-with-garden-swimming-pool-and-wooden-2023-11-27-05-30-01-utc.webp";
+import BgCTA from "@/assets/2.webp";
 import * as React from "react";
 import {Button, buttonVariants} from "@/components/ui/button";
 import Link from "next/link";
@@ -18,8 +18,7 @@ export default function CTA() {
                         <div className='flex flex-col relative -z-10 h-full'>
                             <Image
                                 src={BgCTA} alt="hero img"
-                                height={1250} width={1500}
-                                className='object-cover object-fille w-full h-full' />
+                                className='object-cover w-full h-full' />
                         </div>
                         <div className='absolute z-10 top-0 h-full lg:p-8 flex w-full lg:w-[35%] items-center justify-center'>
                             <div

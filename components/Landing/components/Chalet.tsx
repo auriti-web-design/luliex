@@ -4,11 +4,14 @@ import * as React from "react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import Autoplay from "embla-carousel-autoplay"
-import test1 from '@/assets/223.webp'
-import test2 from '@/assets/375.webp'
-import test3 from '@/assets/2793.webp'
-import test4 from '@/assets/chalet.webp'
-import test5 from '@/assets/dimore_storiche.webp'
+import test1 from '@/assets/31.webp'
+import test2 from '@/assets/32.webp'
+import test3 from '@/assets/33.webp'
+import test4 from '@/assets/34.webp'
+import test5 from '@/assets/35.webp'
+import test6 from '@/assets/36.webp'
+import test7 from '@/assets/37.webp'
+import test8 from '@/assets/38.webp'
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 
@@ -71,6 +74,21 @@ export default function Chalet() {
                                 <CarouselItem className="md:basis-1/2 lg:basis-1/3 basis-1/2">
                                     <AspectRatio ratio={16 / 9}>
                                         <Image src={test5} alt="Test 5" width={1080} height={450} />
+                                    </AspectRatio>
+                                </CarouselItem>
+                                <CarouselItem className="md:basis-1/2 lg:basis-1/3 basis-1/2">
+                                    <AspectRatio ratio={16 / 9}>
+                                        <Image src={test6} alt="Test 5" width={1080} height={450} />
+                                    </AspectRatio>
+                                </CarouselItem>
+                                <CarouselItem className="md:basis-1/2 lg:basis-1/3 basis-1/2">
+                                    <AspectRatio ratio={16 / 9}>
+                                        <Image src={test7} alt="Test 5" width={1080} height={450} />
+                                    </AspectRatio>
+                                </CarouselItem>
+                                <CarouselItem className="md:basis-1/2 lg:basis-1/3 basis-1/2">
+                                    <AspectRatio ratio={16 / 9}>
+                                        <Image src={test8} alt="Test 5" width={1080} height={450} />
                                     </AspectRatio>
                                 </CarouselItem>
                             </CarouselContent>

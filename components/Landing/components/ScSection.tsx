@@ -11,7 +11,7 @@
  * on the landing page.
  */
 import Image from "next/image";
-import FsSimage2 from "@/assets/2793.webp";
+import FsSimage2 from "@/assets/0.webp";
 import * as React from "react";
 
 export default function ScSection() {

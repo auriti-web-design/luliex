@@ -10,14 +10,20 @@ export default function MainSection() {
                     <div className='flex gap-4 lg:items-center'>
                         <div
                             className='before:content-[] h-16 w-0 lg:h-0 lg:w-28 border-2 lg:border border-gold'></div>
-                        <h2 className='font-serif text-2xl lg:text-5xl'>Luliex: la più esclusiva selezione di <br
-                            className='hidden lg:block'></br>immobili di lusso in italia e nel mondo</h2>
+                        <h2 className='font-serif text-2xl lg:text-5xl'>
+                            Luliex: la più esclusiva selezione di
+                            <br
+                            className='hidden lg:block'></br>
+                            immobili di lusso in italia e nel mondo
+                        </h2>
                     </div>
                 </div>
 
                 <div className='w-full flex flex-col lg:grid lg:grid-cols-2 lg:gap-x-24'>
                     <div className='lg:col-span-1 w-full'>
-                        <Image src={FsSimage} alt="hero img" height={744} width={1055}
+                        <Image
+                            src={FsSimage}
+                            alt="hero img"
                             className='object-cover object-center w-full h-full' />
                     </div>
                     <div className='lg:col-span-1 w-full py-12 lg:py-0'>
